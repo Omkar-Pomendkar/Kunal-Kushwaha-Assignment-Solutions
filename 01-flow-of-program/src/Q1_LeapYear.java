@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LeapYear_Q1 {
+public class Q1_LeapYear {
     public static void main(String[] args) {
         System.out.println("Input a year and find whether it is a leap year or not.");
         Scanner sc = new Scanner(System.in);

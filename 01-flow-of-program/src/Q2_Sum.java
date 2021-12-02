@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Sum_Q2 {
+public class Q2_Sum {
     public static void main(String[] args) {
         System.out.println("Take two numbers and print the sum of both.");
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Input_x_Q5 {
+public class Q5_Input_x {
     public static void main(String[] args) {
         System.out.println("Keep taking numbers as inputs till the user enters ‘x’, after that print sum of all.");
         Scanner sc = new Scanner(System.in);
