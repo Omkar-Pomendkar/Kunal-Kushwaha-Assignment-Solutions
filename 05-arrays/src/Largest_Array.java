@@ -12,7 +12,7 @@ public class Largest_Array {
         int largest = arr[0];
 //        System.out.println(arr[0]);
         for (int row = 0; row < arr.length; row++) {
-            if(arr[row] < largest)
+            if(arr[row] > largest)
             {
                 largest = arr[row];
             }
