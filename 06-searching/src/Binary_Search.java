@@ -1,7 +1,7 @@
 public class Binary_Search  {
     public static void main(String[] args) {
         int [] arr = {12,34,56,76,89,99};
-        int target = 909;
+        int target = 99;
         int ans = binarysearch(arr,target);
         System.out.println(ans);
 
