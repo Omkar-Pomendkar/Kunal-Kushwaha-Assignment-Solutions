@@ -1,7 +1,7 @@
 public class CeilingofNumber {
     public static void main(String[] args) {
         int[] arr = {2,3,5,9,14,16,18};
-        int target  = 9;
+        int target  = 10;
         int ans = ceiling(arr,target);
         System.out.println(ans);
     }
@@ -29,7 +29,7 @@ public class CeilingofNumber {
                  return mid;
              }
          }
-         return target;
+         return start;
     }
 
 
