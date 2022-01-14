@@ -1,24 +1,25 @@
 public class LinearSearch {
     public static void main(String[] args) {
         System.out.println("Linear Search");
-        int[] arr = {12,54,67,89,43,56,78};
-        int target = 67;
+        int[] arr = {12,34,56,23,43,75,90,100};
+        int target = 23;
         int ans = linearsearch(arr,target);
         System.out.println(ans);
     }
-
-     static int linearsearch(int[] arr, int target) {
+    static int linearsearch(int[] arr, int target)
+    {
         if(arr.length == 0)
         {
             return -1;
         }
-         for (int index = 0; index < arr.length; index++) {
-             if(target == arr[index])
-             {
-                 return index;
-             }
+        for (int i = 0; i < arr.length; i++) {
+            int element = arr[i];
+            if(element == target)
+            {
+                return i;
+            }
 
-         }
-         return -1;
+        }
+        return -1;
     }
 }
