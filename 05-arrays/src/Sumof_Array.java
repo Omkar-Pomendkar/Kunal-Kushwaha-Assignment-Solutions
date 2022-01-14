@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sumof_Array {
+public class Sumof_Array {
     public static void main(String[] args) {
         int [] arr = new int[5];
         Scanner sc = new Scanner(System.in);
