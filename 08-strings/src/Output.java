@@ -1,4 +1,4 @@
-public class Even_Digits {
+public class Output {
     public static void main(String[] args) {
 
     }
