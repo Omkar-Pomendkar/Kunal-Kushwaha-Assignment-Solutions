@@ -11,8 +11,8 @@ public class Armstrong_Number {
         Total  - 153
         This is Armstrong Number
          */
-       // Scanner sc = new Scanner(System.in);
-       // int n = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // int n = sc.nextInt();
         for (int i = 100; i < 1000; i++) {
             if(isArmstrong(i))
             {
@@ -20,7 +20,7 @@ public class Armstrong_Number {
             }
 
         }
-       // System.out.println(isArmstrong(n));
+        // System.out.println(isArmstrong(n));
 
     }
     static boolean isArmstrong(int n)
