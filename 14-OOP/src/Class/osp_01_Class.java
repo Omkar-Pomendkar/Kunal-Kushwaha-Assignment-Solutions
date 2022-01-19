@@ -1,4 +1,4 @@
-package Inherit;
+package Class;
 
 class Employee
 {
@@ -21,9 +21,9 @@ class Employee
     }
 
 }
-public class osp_01_Inheritance {
+public class osp_01_Class {
     public static void main(String[] args) {
-        System.out.println("Inheritance");
+        System.out.println("Class");
         Employee omkar = new Employee();
         omkar.Salary =100000;
         System.out.println("Salary :"+omkar.getSalary());
